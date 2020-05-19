@@ -8,8 +8,7 @@ using namespace std;
 
 void * thread_func(void * arg)
 {
-    cout << "Thread " << pthread_self() << " work" << endl << endl;
-    sleep(3);
+    cout << "Thread " << pthread_self() << " work" << "\n";
     cout << endl << "Thread " << pthread_self() << " done" << endl;
     return NULL;
 }
